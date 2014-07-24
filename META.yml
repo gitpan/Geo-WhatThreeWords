@@ -1,0 +1,25 @@
+---
+abstract: 'Turn WGS84 coordinates into three words or OneWords and vice-versa using w3w.co HTTP API'
+author:
+  - 'mtmail <mtmail-cpan@gmx.net>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141520'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Geo-WhatThreeWords
+requires:
+  Data::Dumper: '0'
+  JSON::XS: '0'
+  LWP::UserAgent: '0'
+  List::Util: '0'
+  Net::Ping: '0'
+  Net::Ping::External: '0'
+  Test::Exception: '0'
+  Test::More: '0.88'
+  URI: '0'
+version: '0.8'
